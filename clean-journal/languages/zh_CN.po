@@ -3,8 +3,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Clean Journal\n"
-"POT-Creation-Date: 2024-08-05 22:19+0545\n"
-"PO-Revision-Date: 2024-08-05 22:19+0545\n"
+"POT-Creation-Date: 2025-06-18 19:17+0545\n"
+"PO-Revision-Date: 2025-06-18 19:17+0545\n"
 "Last-Translator: \n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: zh\n"
@@ -12,11 +12,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;"
-"_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;"
-"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
@@ -308,8 +307,8 @@ msgstr ""
 
 #: ../inc/clean-journal-default-options.php:68
 msgid ""
-"This is promotion headline. You can edit this from Appearance -> Customize -"
-"> Theme Options -> Promotion Headline Options"
+"This is promotion headline. You can edit this from Appearance -> Customize "
+"-> Theme Options -> Promotion Headline Options"
 msgstr "这是大标题推广栏。你可以进入 外观-定制-主题选项-大标题推广栏 编辑"
 
 #: ../inc/clean-journal-default-options.php:69
@@ -340,17 +339,17 @@ msgid "Dark"
 msgstr "暗色"
 
 #: ../inc/clean-journal-default-options.php:130
-#: ../inc/clean-journal-default-options.php:496
+#: ../inc/clean-journal-default-options.php:508
 msgid "Primary Sidebar, Content"
 msgstr "主侧边栏，内容"
 
 #: ../inc/clean-journal-default-options.php:131
-#: ../inc/clean-journal-default-options.php:501
+#: ../inc/clean-journal-default-options.php:513
 msgid "Content, Primary Sidebar"
 msgstr "内容，主侧边栏"
 
 #: ../inc/clean-journal-default-options.php:132
-#: ../inc/clean-journal-default-options.php:506
+#: ../inc/clean-journal-default-options.php:518
 msgid "No Sidebar ( Content Width )"
 msgstr "无侧边栏（内容宽度）"
 
@@ -396,7 +395,7 @@ msgid "Disabled"
 msgstr "禁用"
 
 #: ../inc/clean-journal-default-options.php:180
-#: ../inc/clean-journal-default-options.php:559
+#: ../inc/clean-journal-default-options.php:571
 msgid "Full Image"
 msgstr "完整图片"
 
@@ -515,57 +514,58 @@ msgid "Twitter"
 msgstr "推特"
 
 #: ../inc/clean-journal-default-options.php:353
+#, fuzzy
+#| msgid "Twitter"
+msgid "X Twitter"
+msgstr "推特"
+
+#: ../inc/clean-journal-default-options.php:357
 msgid "Googleplus"
 msgstr "谷歌plus"
 
-#: ../inc/clean-journal-default-options.php:357
-#: ../inc/clean-journal-social-icons.php:36
+#: ../inc/clean-journal-default-options.php:361
 msgid "Email"
 msgstr "邮箱"
 
-#: ../inc/clean-journal-default-options.php:361
+#: ../inc/clean-journal-default-options.php:365
 msgid "Feed"
 msgstr "源"
 
-#: ../inc/clean-journal-default-options.php:365
+#: ../inc/clean-journal-default-options.php:369
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../inc/clean-journal-default-options.php:369
+#: ../inc/clean-journal-default-options.php:373
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../inc/clean-journal-default-options.php:373
+#: ../inc/clean-journal-default-options.php:377
 msgid "LinkedIn"
 msgstr "领英"
 
-#: ../inc/clean-journal-default-options.php:377
+#: ../inc/clean-journal-default-options.php:381
 msgid "Pinterest"
 msgstr "Printerest"
 
-#: ../inc/clean-journal-default-options.php:381
+#: ../inc/clean-journal-default-options.php:385
 msgid "Flickr"
 msgstr "Flickr"
 
-#: ../inc/clean-journal-default-options.php:385
+#: ../inc/clean-journal-default-options.php:389
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: ../inc/clean-journal-default-options.php:389
+#: ../inc/clean-journal-default-options.php:393
 msgid "YouTube"
 msgstr "YouTube"
 
-#: ../inc/clean-journal-default-options.php:393
+#: ../inc/clean-journal-default-options.php:397
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: ../inc/clean-journal-default-options.php:397
+#: ../inc/clean-journal-default-options.php:401
 msgid "Instagram"
 msgstr "Instagram"
-
-#: ../inc/clean-journal-default-options.php:401
-msgid "PollDaddy"
-msgstr "在线投票统计系统"
 
 #: ../inc/clean-journal-default-options.php:405
 msgid "CodePen"
@@ -639,29 +639,41 @@ msgstr "云"
 msgid "Link"
 msgstr "链接"
 
-#: ../inc/clean-journal-default-options.php:491
-#: ../inc/clean-journal-default-options.php:522
-#: ../inc/clean-journal-default-options.php:549
+#: ../inc/clean-journal-default-options.php:477
+msgid "Bluesky"
+msgstr ""
+
+#: ../inc/clean-journal-default-options.php:481
+msgid "Tiktok"
+msgstr ""
+
+#: ../inc/clean-journal-default-options.php:485
+msgid "Threads"
+msgstr ""
+
+#: ../inc/clean-journal-default-options.php:503
+#: ../inc/clean-journal-default-options.php:534
+#: ../inc/clean-journal-default-options.php:561
 msgid "Default"
 msgstr "默认"
 
-#: ../inc/clean-journal-default-options.php:527
+#: ../inc/clean-journal-default-options.php:539
 msgid "Enable"
 msgstr "开启"
 
-#: ../inc/clean-journal-default-options.php:532
+#: ../inc/clean-journal-default-options.php:544
 msgid "Disable"
 msgstr "禁用"
 
-#: ../inc/clean-journal-default-options.php:554
+#: ../inc/clean-journal-default-options.php:566
 msgid "Featured Image"
 msgstr "特色图片"
 
-#: ../inc/clean-journal-default-options.php:564
+#: ../inc/clean-journal-default-options.php:576
 msgid "Disable Image"
 msgstr "禁用图片"
 
-#: ../inc/clean-journal-default-options.php:579
+#: ../inc/clean-journal-default-options.php:591
 #, fuzzy, php-format
 #| msgctxt "1: Year, 2: Site Title with home URL"
 #| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved"
@@ -669,11 +681,11 @@ msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link\n"
 msgid "Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s"
 msgstr "版权 &copy; %1$s %2$s. 版权所有"
 
-#: ../inc/clean-journal-default-options.php:580
+#: ../inc/clean-journal-default-options.php:592
 msgid "Y"
 msgstr ""
 
-#: ../inc/clean-journal-default-options.php:582
+#: ../inc/clean-journal-default-options.php:594
 msgid "by"
 msgstr "由"
 
@@ -1203,6 +1215,9 @@ msgstr ""
 #: ../sidebar.php:54
 msgid "Archives"
 msgstr "归档"
+
+#~ msgid "PollDaddy"
+#~ msgstr "在线投票统计系统"
 
 #~ msgid "Shuffle"
 #~ msgstr "洗牌打乱"

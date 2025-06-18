@@ -1,8 +1,8 @@
 === Clean Journal ===
 Contributors: catchthemes
 Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, post-formats, sticky-post, theme-options,  threaded-comments, translation-ready, blog, news, portfolio
-Requires at least: 5.6
-Tested up to: 6.6
+Requires at least: 5.9
+Tested up to: 6.8
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -86,6 +86,7 @@ Clean Journal has social icons for various social networking sites.
 Note: By default social links will be added in Header Right Section. You can also add that in your sidebar from "Appearance -> Widgets"
 
 Available icons:
+* Bluesky
 * Codepen
 * Digg
 * Dribbble
@@ -105,9 +106,12 @@ Available icons:
 * RSS Feed
 * Spotify
 * StumbleUpon
+* TikTok
+* Threads
 * Tumblr
 * Twitch
 * Twitter
+* X Twitter
 * Vimeo
 * WordPress
 * YouTube
@@ -143,6 +147,11 @@ For detail instructions, check out theme instructions page at https://catchtheme
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 3.0 (Released: June 18, 2025) =
+* Added: Twitter X, TikTok, Bluesky, and Threads icons
+* Replaced: Genericons library to Font Awesome
+* Updated: WordPress 6.8 ready
 
 = 2.8.3 (Released: August 26, 2024) =
 * Added: Support dimension option for blocks
@@ -265,7 +274,7 @@ For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Copyright ==
 
-Clean Journal WordPress Theme, Copyright 2012-2023 Catchthemes.com
+Clean Journal WordPress Theme, Copyright 2012-2025 Catchthemes.com
 Clean Journal is distributed under the terms of the GNU GPL
 
 == Resources ==
@@ -285,9 +294,11 @@ Clean Journal is distributed under the terms of the GNU GPL
     8. All other images are self shot image by (CatchThemes.com)
 
 * Font Icons
-	Genericons by Automattic, Inc.
-  	Genericons is Licensed under the GPL, version 2 or later
-	http://genericons.com/
+	Font Awesome Free is free, open source, and GPL friendly.
+    Copyright (c) 2024 Fonticons, Inc. (https://fontawesome.com)
+    with Reserved Font Name: "Font Awesome".
+    Fonts: SIL OFL 1.1 License
+    https://fontawesome.com
 
 * JS Files
     HTML5-Shiv is Licensed under the MIT and GPL licenses

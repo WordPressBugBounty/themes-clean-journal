@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clean Journal\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2024-08-05 22:18+0545\n"
-"PO-Revision-Date: 2024-08-05 22:18+0545\n"
+"POT-Creation-Date: 2025-06-18 19:17+0545\n"
+"PO-Revision-Date: 2025-06-18 19:17+0545\n"
 "Last-Translator: \n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: de_DE\n"
@@ -13,10 +13,10 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.6\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;"
-"_nx:1,2,4c;esc_html__;esc_attr_x:1,2c;esc_html_e\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;_nx:1,2,4c;esc_html__;esc_attr_x:1,2c;esc_html_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: ..\n"
 
@@ -325,8 +325,8 @@ msgstr "Clean Journal ist ein responsives Premium WordPress Theme"
 
 #: ../inc/clean-journal-default-options.php:68
 msgid ""
-"This is promotion headline. You can edit this from Appearance -> Customize -"
-"> Theme Options -> Promotion Headline Options"
+"This is promotion headline. You can edit this from Appearance -> Customize "
+"-> Theme Options -> Promotion Headline Options"
 msgstr ""
 "Dies ist die Werbeheadline. Sie k&ouml;nnen Sie unter Erscheinungsbild -> "
 "Individualisiern -> Themenoptionen -> Werbeheadline ver&auml;ndern."
@@ -359,17 +359,17 @@ msgid "Dark"
 msgstr "Dunkel"
 
 #: ../inc/clean-journal-default-options.php:130
-#: ../inc/clean-journal-default-options.php:496
+#: ../inc/clean-journal-default-options.php:508
 msgid "Primary Sidebar, Content"
 msgstr "Prim&auml;re Seitenleiste, Inhalt"
 
 #: ../inc/clean-journal-default-options.php:131
-#: ../inc/clean-journal-default-options.php:501
+#: ../inc/clean-journal-default-options.php:513
 msgid "Content, Primary Sidebar"
 msgstr "Inhalt, Prim&auml;re Seitenleiste"
 
 #: ../inc/clean-journal-default-options.php:132
-#: ../inc/clean-journal-default-options.php:506
+#: ../inc/clean-journal-default-options.php:518
 msgid "No Sidebar ( Content Width )"
 msgstr "Keine Seitenleiste (volle Breite)"
 
@@ -415,7 +415,7 @@ msgid "Disabled"
 msgstr "Deaktiviert"
 
 #: ../inc/clean-journal-default-options.php:180
-#: ../inc/clean-journal-default-options.php:559
+#: ../inc/clean-journal-default-options.php:571
 msgid "Full Image"
 msgstr "Vollbild"
 
@@ -536,57 +536,58 @@ msgid "Twitter"
 msgstr "Twitter"
 
 #: ../inc/clean-journal-default-options.php:353
+#, fuzzy
+#| msgid "Twitter"
+msgid "X Twitter"
+msgstr "Twitter"
+
+#: ../inc/clean-journal-default-options.php:357
 msgid "Googleplus"
 msgstr "Googleplus"
 
-#: ../inc/clean-journal-default-options.php:357
-#: ../inc/clean-journal-social-icons.php:36
+#: ../inc/clean-journal-default-options.php:361
 msgid "Email"
 msgstr "E-Mail-Adresse:"
 
-#: ../inc/clean-journal-default-options.php:361
+#: ../inc/clean-journal-default-options.php:365
 msgid "Feed"
 msgstr "Feed"
 
-#: ../inc/clean-journal-default-options.php:365
+#: ../inc/clean-journal-default-options.php:369
 msgid "WordPress"
 msgstr "WordPress"
 
-#: ../inc/clean-journal-default-options.php:369
+#: ../inc/clean-journal-default-options.php:373
 msgid "GitHub"
 msgstr "GitHub"
 
-#: ../inc/clean-journal-default-options.php:373
+#: ../inc/clean-journal-default-options.php:377
 msgid "LinkedIn"
 msgstr "LinkedIn"
 
-#: ../inc/clean-journal-default-options.php:377
+#: ../inc/clean-journal-default-options.php:381
 msgid "Pinterest"
 msgstr "Auf Pinterest pinnen"
 
-#: ../inc/clean-journal-default-options.php:381
+#: ../inc/clean-journal-default-options.php:385
 msgid "Flickr"
 msgstr "Flickr"
 
-#: ../inc/clean-journal-default-options.php:385
+#: ../inc/clean-journal-default-options.php:389
 msgid "Vimeo"
 msgstr "Vimeo"
 
-#: ../inc/clean-journal-default-options.php:389
+#: ../inc/clean-journal-default-options.php:393
 msgid "YouTube"
 msgstr "YouTube"
 
-#: ../inc/clean-journal-default-options.php:393
+#: ../inc/clean-journal-default-options.php:397
 msgid "Tumblr"
 msgstr "Tumblr"
 
-#: ../inc/clean-journal-default-options.php:397
+#: ../inc/clean-journal-default-options.php:401
 msgid "Instagram"
 msgstr "Instagram"
-
-#: ../inc/clean-journal-default-options.php:401
-msgid "PollDaddy"
-msgstr "PollDaddy"
 
 #: ../inc/clean-journal-default-options.php:405
 msgid "CodePen"
@@ -660,29 +661,41 @@ msgstr "Cloud"
 msgid "Link"
 msgstr "Verknüpfung"
 
-#: ../inc/clean-journal-default-options.php:491
-#: ../inc/clean-journal-default-options.php:522
-#: ../inc/clean-journal-default-options.php:549
+#: ../inc/clean-journal-default-options.php:477
+msgid "Bluesky"
+msgstr ""
+
+#: ../inc/clean-journal-default-options.php:481
+msgid "Tiktok"
+msgstr ""
+
+#: ../inc/clean-journal-default-options.php:485
+msgid "Threads"
+msgstr ""
+
+#: ../inc/clean-journal-default-options.php:503
+#: ../inc/clean-journal-default-options.php:534
+#: ../inc/clean-journal-default-options.php:561
 msgid "Default"
 msgstr "Vorgabe"
 
-#: ../inc/clean-journal-default-options.php:527
+#: ../inc/clean-journal-default-options.php:539
 msgid "Enable"
 msgstr "Aktiv"
 
-#: ../inc/clean-journal-default-options.php:532
+#: ../inc/clean-journal-default-options.php:544
 msgid "Disable"
 msgstr "Deaktiviere"
 
-#: ../inc/clean-journal-default-options.php:554
+#: ../inc/clean-journal-default-options.php:566
 msgid "Featured Image"
 msgstr "Featured Bild"
 
-#: ../inc/clean-journal-default-options.php:564
+#: ../inc/clean-journal-default-options.php:576
 msgid "Disable Image"
 msgstr "Foto deaktivieren"
 
-#: ../inc/clean-journal-default-options.php:579
+#: ../inc/clean-journal-default-options.php:591
 #, fuzzy, php-format
 #| msgctxt "1: Year, 2: Site Title with home URL"
 #| msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
@@ -690,14 +703,14 @@ msgctxt "1: Year, 2: Site Title with home URL 3: Privacy Policy Link\n"
 msgid "Copyright &copy; %1$s %2$s. All Rights Reserved. %3$s"
 msgstr "Copyright &copy; %1$s %2$s. Alle Rechte vorbehalten."
 
-#: ../inc/clean-journal-default-options.php:580
+#: ../inc/clean-journal-default-options.php:592
 #, fuzzy
 #| msgctxt "yearly archives date format"
 #| msgid "Y"
 msgid "Y"
 msgstr "Y"
 
-#: ../inc/clean-journal-default-options.php:582
+#: ../inc/clean-journal-default-options.php:594
 msgid "by"
 msgstr "von"
 
@@ -707,10 +720,10 @@ msgid ""
 "Headline, Subheadline and Feaured Content from \"Appearance -> Customize -> "
 "Featured Content Options\"."
 msgstr ""
-"Hier k&ouml;nnen Sie eine Anzahl X an ausgew&auml;hlten Inhalten pr&auml;"
-"sentieren. Sie k&ouml;nnen die Headline, Subheadline und ihre Inhalte unter "
-"\"Erscheinungsbild -> Individualisieren -> Optionen f&uuml;r ausgew&auml;"
-"hlten Inhalt\" anpassen."
+"Hier k&ouml;nnen Sie eine Anzahl X an ausgew&auml;hlten Inhalten "
+"pr&auml;sentieren. Sie k&ouml;nnen die Headline, Subheadline und ihre "
+"Inhalte unter \"Erscheinungsbild -> Individualisieren -> Optionen f&uuml;r "
+"ausgew&auml;hlten Inhalt\" anpassen."
 
 #: ../inc/clean-journal-featured-content.php:256
 #: ../inc/clean-journal-featured-slider.php:180
@@ -783,8 +796,8 @@ msgstr "CT: Social Icons"
 #: ../inc/clean-journal-widgets.php:70
 msgid "Use this widget to add Social Icons as a widget. "
 msgstr ""
-"﻿Verwenden Sie dieses Widget, um Links zu sozialen Netzwerken hinzuzuf&uuml;"
-"gen."
+"﻿Verwenden Sie dieses Widget, um Links zu sozialen Netzwerken "
+"hinzuzuf&uuml;gen."
 
 #: ../inc/clean-journal-widgets.php:111
 msgid "Title (optional):"
@@ -1266,6 +1279,9 @@ msgstr ""
 msgid "Archives"
 msgstr "Archiv"
 
+#~ msgid "PollDaddy"
+#~ msgstr "PollDaddy"
+
 #~ msgid "Shuffle"
 #~ msgstr "Zufall"
 
@@ -1330,9 +1346,9 @@ msgstr "Archiv"
 #~ "Some settings might be missing or disorganized in this version of "
 #~ "WordPress. So we suggest you to upgrade to version 4.0 or better."
 #~ msgstr ""
-#~ "Einige Einstellungen sind in dieser Version von Wordpress m&ouml;"
-#~ "glicherweise nicht vorhanden oder an anderer Stelle. Wir empfehlen Ihnen, "
-#~ "auf Version 4.0 oder h&ouml;her zu aktualisieren."
+#~ "Einige Einstellungen sind in dieser Version von Wordpress "
+#~ "m&ouml;glicherweise nicht vorhanden oder an anderer Stelle. Wir empfehlen "
+#~ "Ihnen, auf Version 4.0 oder h&ouml;her zu aktualisieren."
 
 #~ msgid "Author: %s"
 #~ msgstr "Autor: %s"

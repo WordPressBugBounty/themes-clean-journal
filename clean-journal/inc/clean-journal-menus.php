@@ -39,7 +39,7 @@ function clean_journal_primary_menu() {
                 }
 
                 ?>
-                <div id="search-toggle" class="genericon">
+                <div id="search-toggle" class="font-awesome">
                     <a class="screen-reader-text" href="#search-container"><?php esc_html_e( 'Search', 'clean-journal' ); ?></a>
                 </div>
 
@@ -153,7 +153,7 @@ function clean_journal_mobile_header_nav_anchor() {
     ?>
 
     <div id="mobile-header-left-menu" class="<?php echo $classes; ?>">
-        <a href="#mobile-header-left-nav" id="header-left-menu" class="genericon genericon-menu">
+        <a href="#mobile-header-left-nav" id="header-left-menu" class="font-awesome fa-menu">
             <span class="mobile-menu-text"><?php esc_html_e( 'Menu', 'clean-journal' );?></span>
         </a>
     </div><!-- #mobile-header-menu -->
@@ -172,7 +172,7 @@ function clean_journal_mobile_secondary_nav_anchor() {
     if ( has_nav_menu( 'secondary' ) ) {
         ?>
         <div id="mobile-header-right-menu" class="mobile-menu-anchor secondary-menu">
-            <a href="#mobile-header-right-menu" id="secondary-menu" class="genericon genericon-menu">
+            <a href="#mobile-header-right-menu" id="secondary-menu" class="font-awesome fa-menu">
                 <span class="mobile-menu-text"><?php esc_html_e( 'Menu', 'clean-journal' );?></span>
             </a>
         </div><!-- #mobile-header-menu -->
@@ -195,7 +195,7 @@ function clean_journal_header_top_menu() {
     <section id="header-top-menu" class="widget widget_nav_menu">
         <div class="widget-wrap">
             <div class="mobile-menu-anchor header-top-menu" id="mobile-header-top-menu">
-                <a class="genericon genericon-menu" id="header-top-menu" href="#mobile-header-top-nav">
+                <a class="font-awesome fa-menu" id="header-top-menu" href="#mobile-header-top-nav">
                     <span class="mobile-menu-text">Menu</span>
                 </a>
             </div>

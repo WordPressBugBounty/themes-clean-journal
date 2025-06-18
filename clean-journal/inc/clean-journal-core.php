@@ -312,8 +312,8 @@ function clean_journal_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
-	//For genericons
-	wp_enqueue_style( 'genericons', trailingslashit( esc_url ( get_template_directory_uri() ) ) . 'css/genericons/genericons.css', false, '3.4.1' );
+	// Font Awesome
+	wp_enqueue_style('font-awesome', trailingslashit(esc_url(get_template_directory_uri())) . 'css/font-awesome/css/all.min.css', array(), '6.7.2', 'all');
 
 	/**
 	 * Enqueue the styles for the current color scheme for journal.
@@ -1450,7 +1450,7 @@ if ( ! function_exists( 'clean_journal_scrollup' ) ) {
 
 			//site stats, analytics header code
 			if ( ! $options['disable_scrollup'] ) {
-				$clean_journal_scrollup =  '<a href="#masthead" id="scrollup" class="genericon"><span class="screen-reader-text">' . __( 'Scroll Up', 'clean-journal' ) . '</span></a>' ;
+				$clean_journal_scrollup =  '<a href="#masthead" id="scrollup" class="font-awesome"><span class="screen-reader-text">' . __( 'Scroll Up', 'clean-journal' ) . '</span></a>' ;
 			}
 
 			set_transient( 'clean_journal_scrollup', $clean_journal_scrollup, 86940 );
@@ -1469,7 +1469,7 @@ if ( ! function_exists( 'clean_journal_page_post_meta' ) ) :
 		$clean_journal_author_url = esc_url( get_author_posts_url( get_the_author_meta( "ID" ) ) );
 
 		$clean_journal_page_post_meta = '<span class="post-time">' . __( 'Posted on', 'clean-journal' ) . ' <time class="entry-date updated" datetime="' . esc_attr( get_the_date( 'c' ) ) . '" pubdate>' . esc_html( get_the_date() ) . '</time></span>';
-	    $clean_journal_page_post_meta .= '<span class="post-author">' . __( 'By', 'clean-journal' ) . ' <span class="author vcard"><a class="url fn n" href="' . esc_url( $clean_journal_author_url ) . '" title="View all posts by ' . esc_attr( get_the_author() ) . '" rel="author">' .get_the_author() . '</a></span>';
+	    $clean_journal_page_post_meta .= '<span class="post-author">' . __( 'By', 'clean-journal' ) . ' <span class="author vcard"><a class="url fn n" href="' . esc_url( $clean_journal_author_url ) . '" title="View all posts by ' . esc_attr( get_the_author() ) . '" rel="author">' . esc_html( get_the_author() ) . '</a></span>';
 
 		return $clean_journal_page_post_meta;
 	}

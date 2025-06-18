@@ -28,27 +28,32 @@ function clean_journal_get_social_icons(){
 		//Pre defined Social Icons Link Start
 		$pre_def_social_icons 	=	clean_journal_get_social_icons_list();
 
-		foreach ( $pre_def_social_icons as $key => $item ) {
-			if( isset( $options[ $key ] ) && '' != $options[ $key ] ) {
-				$value = $options[ $key ];
+			foreach ($pre_def_social_icons as $key => $item) {
+				if (isset($options[$key]) && '' != $options[$key]) {
+					$value = $options[$key];
 
-				if ( 'email_link' == $key  ) {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr__( 'Email', 'clean-journal') . '" href="mailto:'. antispambot( sanitize_email( $value ) ) .'"><span class="screen-reader-text">'. __( 'Email', 'clean-journal') . '</span> </a>';
-				}
-				else if ( 'skype_link' == $key  ) {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) . '" href="'. esc_attr( $value ) .'"><span class="screen-reader-text">'. esc_attr( $item['label'] ). '</span> </a>';
-				}
-				else if ( 'phone_link' == $key || 'handset_link' == $key ) {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) . '" href="tel:' . preg_replace( '/\s+/', '', esc_attr( $value ) ) . '"><span class="screen-reader-text">'. esc_attr( $item['label'] ) . '</span> </a>';
-				}
-				else {
-					$output .= '<a class="genericon_parent genericon genericon-'. sanitize_key( $item['genericon_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) .'" href="'. esc_url( $value ) .'"><span class="screen-reader-text">'. esc_attr( $item['label'] ) .'</span> </a>';
+					if ( 'email_link' == $key  ) {
+					$output .= '<a class="font-awesome fa-solid fa-'. sanitize_key( $item['fa_class'] ) .'" target="_blank" title="' . esc_attr($item['label']) . '" href="mailto:'. antispambot( sanitize_email( $value ) ) .'"><span class="screen-reader-text">' . esc_attr($item['label']) . '</span> </a>';
+					}
+					else if ( 'phone_link' == $key || 'handset_link' == $key || 'mobile_link' == $key ) {
+					$output .= '<a class="font-awesome fa-solid fa-'. sanitize_key( $item['fa_class'] ) .'" target="_blank" title="'. esc_attr( $item['label'] ) . '" href="tel:' . preg_replace( '/\s+/', '', esc_attr( $value ) ) . '"><span class="screen-reader-text">'. esc_attr( $item['label'] ) . '</span> </a>';
+					}
+					else if (
+						'website_link' == $key
+						|| 'feed_link' == $key
+						|| 'cart_link' == $key
+						|| 'cloud_link' == $key
+						|| 'link_link' == $key
+					) {
+						$output .= '<a class="font-awesome fa-solid fa-' . sanitize_key($item['fa_class']) . '" target="_blank" title="' . esc_attr($item['label']) . '" href="' . esc_attr($value) . '"><span class="screen-reader-text">' . esc_attr($item['label']) . '</span> </a>';
+					} else {
+						$output .= '<a class="font-awesome fa-brands fa-' . sanitize_key($item['fa_class']) . '" target="_blank" title="' . esc_attr($item['label']) . '" href="' . esc_url($value) . '"><span class="screen-reader-text">' . esc_attr($item['label']) . '</span> </a>';
+					}
 				}
 			}
-		}
-		//Pre defined Social Icons Link End
+			//Pre defined Social Icons Link End
 
-		set_transient( 'clean_journal_social_icons', $output, 86940 );
+			set_transient( 'clean_journal_social_icons', $output, 86940 );
 	}
 	return $output;
 } // clean_journal_get_social_icons

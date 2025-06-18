@@ -341,137 +341,149 @@ function clean_journal_single_post_image_layout_options() {
 function clean_journal_get_social_icons_list() {
 	$clean_journal_social_icons_list = array(
 		'facebook_link'		=> array(
-			'genericon_class' 	=> 'facebook-alt',
-			'label' 			=> esc_html__( 'Facebook', 'clean-journal' )
-			),
+			'fa_class' 		=> 'facebook',
+			'label' 			=> esc_html__('Facebook', 'clean-journal')
+		),
 		'twitter_link'		=> array(
-			'genericon_class' 	=> 'twitter',
-			'label' 			=> esc_html__( 'Twitter', 'clean-journal' )
-			),
+			'fa_class' 		=> 'twitter',
+			'label' 			=> esc_html__('Twitter', 'clean-journal')
+		),
+		'x_link'		=> array(
+			'fa_class' 		=> 'x-twitter',
+			'label' 			=> esc_html__('X Twitter', 'clean-journal')
+		),
 		'googleplus_link'	=> array(
-			'genericon_class' 	=> 'googleplus-alt',
-			'label' 			=> esc_html__( 'Googleplus', 'clean-journal' )
-			),
+			'fa_class' 		=> 'google-plus',
+			'label' 			=> esc_html__('Googleplus', 'clean-journal')
+		),
 		'email_link'		=> array(
-			'genericon_class' 	=> 'mail',
-			'label' 			=> esc_html__( 'Email', 'clean-journal' )
-			),
+			'fa_class' 		=> 'envelope',
+			'label' 			=> esc_html__('Email', 'clean-journal')
+		),
 		'feed_link'			=> array(
-			'genericon_class' 	=> 'feed',
-			'label' 			=> esc_html__( 'Feed', 'clean-journal' )
-			),
+			'fa_class' 		=> 'feed',
+			'label' 			=> esc_html__('Feed', 'clean-journal')
+		),
 		'wordpress_link'	=> array(
-			'genericon_class' 	=> 'wordpress',
-			'label' 			=> esc_html__( 'WordPress', 'clean-journal' )
-			),
+			'fa_class' 		=> 'wordpress',
+			'label' 			=> esc_html__('WordPress', 'clean-journal')
+		),
 		'github_link'		=> array(
-			'genericon_class' 	=> 'github',
-			'label' 			=> esc_html__( 'GitHub', 'clean-journal' )
-			),
+			'fa_class' 		=> 'github',
+			'label' 			=> esc_html__('GitHub', 'clean-journal')
+		),
 		'linkedin_link'		=> array(
-			'genericon_class' 	=> 'linkedin',
-			'label' 			=> esc_html__( 'LinkedIn', 'clean-journal' )
-			),
+			'fa_class' 		=> 'linkedin',
+			'label' 			=> esc_html__('LinkedIn', 'clean-journal')
+		),
 		'pinterest_link'	=> array(
-			'genericon_class' 	=> 'pinterest',
-			'label' 			=> esc_html__( 'Pinterest', 'clean-journal' )
-			),
+			'fa_class' 		=> 'pinterest',
+			'label' 			=> esc_html__('Pinterest', 'clean-journal')
+		),
 		'flickr_link'		=> array(
-			'genericon_class' 	=> 'flickr',
-			'label' 			=> esc_html__( 'Flickr', 'clean-journal' )
-			),
+			'fa_class' 		=> 'flickr',
+			'label' 			=> esc_html__('Flickr', 'clean-journal')
+		),
 		'vimeo_link'		=> array(
-			'genericon_class' 	=> 'vimeo',
-			'label' 			=> esc_html__( 'Vimeo', 'clean-journal' )
-			),
+			'fa_class' 		=> 'vimeo',
+			'label' 			=> esc_html__('Vimeo', 'clean-journal')
+		),
 		'youtube_link'		=> array(
-			'genericon_class' 	=> 'youtube',
-			'label' 			=> esc_html__( 'YouTube', 'clean-journal' )
-			),
+			'fa_class' 		=> 'youtube',
+			'label' 			=> esc_html__('YouTube', 'clean-journal')
+		),
 		'tumblr_link'		=> array(
-			'genericon_class' 	=> 'tumblr',
-			'label' 			=> esc_html__( 'Tumblr', 'clean-journal' )
-			),
+			'fa_class' 		=> 'tumblr',
+			'label' 			=> esc_html__('Tumblr', 'clean-journal')
+		),
 		'instagram_link'	=> array(
-			'genericon_class' 	=> 'instagram',
-			'label' 			=> esc_html__( 'Instagram', 'clean-journal' )
-			),
-		'polldaddy_link'	=> array(
-			'genericon_class' 	=> 'polldaddy',
-			'label' 			=> esc_html__( 'PollDaddy', 'clean-journal' )
-			),
+			'fa_class' 		=> 'instagram',
+			'label' 			=> esc_html__('Instagram', 'clean-journal')
+		),
 		'codepen_link'		=> array(
-			'genericon_class' 	=> 'codepen',
-			'label' 			=> esc_html__( 'CodePen', 'clean-journal' )
-			),
+			'fa_class' 		=> 'codepen',
+			'label' 			=> esc_html__('CodePen', 'clean-journal')
+		),
 		'path_link'			=> array(
-			'genericon_class' 	=> 'path',
-			'label' 			=> esc_html__( 'Path', 'clean-journal' )
-			),
+			'fa_class' 		=> 'path',
+			'label' 			=> esc_html__('Path', 'clean-journal')
+		),
 		'dribbble_link'		=> array(
-			'genericon_class' 	=> 'dribbble',
-			'label' 			=> esc_html__( 'Dribbble', 'clean-journal' )
-			),
+			'fa_class' 		=> 'dribbble',
+			'label' 			=> esc_html__('Dribbble', 'clean-journal')
+		),
 		'skype_link'		=> array(
-			'genericon_class' 	=> 'skype',
-			'label' 			=> esc_html__( 'Skype', 'clean-journal' )
-			),
+			'fa_class' 		=> 'skype',
+			'label' 			=> esc_html__('Skype', 'clean-journal')
+		),
 		'digg_link'			=> array(
-			'genericon_class' 	=> 'digg',
-			'label' 			=> esc_html__( 'Digg', 'clean-journal' )
-			),
+			'fa_class' 		=> 'digg',
+			'label' 			=> esc_html__('Digg', 'clean-journal')
+		),
 		'reddit_link'		=> array(
-			'genericon_class' 	=> 'reddit',
-			'label' 			=> esc_html__( 'Reddit', 'clean-journal' )
-			),
+			'fa_class' 		=> 'reddit',
+			'label' 			=> esc_html__('Reddit', 'clean-journal')
+		),
 		'stumbleupon_link'	=> array(
-			'genericon_class' 	=> 'stumbleupon',
-			'label' 			=> esc_html__( 'Stumbleupon', 'clean-journal' )
-			),
+			'fa_class' 		=> 'stumbleupon',
+			'label' 			=> esc_html__('Stumbleupon', 'clean-journal')
+		),
 		'pocket_link'		=> array(
-			'genericon_class' 	=> 'pocket',
-			'label' 			=> esc_html__( 'Pocket', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'get-pocket',
+			'label' 			=> esc_html__('Pocket', 'clean-journal'),
+		),
 		'dropbox_link'		=> array(
-			'genericon_class' 	=> 'dropbox',
-			'label' 			=> esc_html__( 'DropBox', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'dropbox',
+			'label' 			=> esc_html__('DropBox', 'clean-journal'),
+		),
 		'spotify_link'		=> array(
-			'genericon_class' 	=> 'spotify',
-			'label' 			=> esc_html__( 'Spotify', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'spotify',
+			'label' 			=> esc_html__('Spotify', 'clean-journal'),
+		),
 		'foursquare_link'	=> array(
-			'genericon_class' 	=> 'foursquare',
-			'label' 			=> esc_html__( 'Foursquare', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'foursquare',
+			'label' 			=> esc_html__('Foursquare', 'clean-journal'),
+		),
 		'twitch_link'		=> array(
-			'genericon_class' 	=> 'twitch',
-			'label' 			=> esc_html__( 'Twitch', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'twitch',
+			'label' 			=> esc_html__('Twitch', 'clean-journal'),
+		),
 		'website_link'		=> array(
-			'genericon_class' 	=> 'website',
-			'label' 			=> esc_html__( 'Website', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'globe',
+			'label' 			=> esc_html__('Website', 'clean-journal'),
+		),
 		'phone_link'		=> array(
-			'genericon_class' 	=> 'phone',
-			'label' 			=> esc_html__( 'Phone', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'Mobile',
+			'label' 			=> esc_html__('Phone', 'clean-journal'),
+		),
 		'handset_link'		=> array(
-			'genericon_class' 	=> 'handset',
-			'label' 			=> esc_html__( 'Handset', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'phone',
+			'label' 			=> esc_html__('Handset', 'clean-journal'),
+		),
 		'cart_link'			=> array(
-			'genericon_class' 	=> 'cart',
-			'label' 			=> esc_html__( 'Cart', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'cart-shopping',
+			'label' 			=> esc_html__('Cart', 'clean-journal'),
+		),
 		'cloud_link'		=> array(
-			'genericon_class' 	=> 'cloud',
-			'label' 			=> esc_html__( 'Cloud', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'cloud',
+			'label' 			=> esc_html__('Cloud', 'clean-journal'),
+		),
 		'link_link'		=> array(
-			'genericon_class' 	=> 'link',
-			'label' 			=> esc_html__( 'Link', 'clean-journal' ),
-			),
+			'fa_class' 		=> 'link',
+			'label' 			=> esc_html__('Link', 'clean-journal'),
+		),
+		'bluesky_link'		=> array(
+			'fa_class' 		=> 'bluesky',
+			'label' 			=> esc_html__('Bluesky', 'clean-journal'),
+		),
+		'tiktok_link'		=> array(
+			'fa_class' 		=> 'tiktok',
+			'label' 			=> esc_html__('Tiktok', 'clean-journal'),
+		),
+		'threads_link'		=> array(
+			'fa_class' 		=> 'threads',
+			'label' 			=> esc_html__('Threads', 'clean-journal'),
+		)
 	);
 
 	return apply_filters( 'clean_journal_social_icons_list', $clean_journal_social_icons_list );

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clean Journal\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-06-18 19:16+0545\n"
-"PO-Revision-Date: 2025-06-18 19:16+0545\n"
+"POT-Creation-Date: 2025-12-14 15:51+0545\n"
+"PO-Revision-Date: 2025-12-14 15:51+0545\n"
 "Last-Translator: Johan Michaelsen <johan.orgel@post.tele.dk>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
 "Language: da_DK\n"
@@ -16,7 +16,7 @@ msgstr ""
 "X-Poedit-KeywordsList: "
 "__;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__;_nx:1,2,4c;esc_html__;esc_attr_x:1,2c;esc_html_e\n"
 "X-Poedit-Basepath: .\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-SearchPath-0: ..\n"
 
@@ -97,8 +97,8 @@ msgstr "Beklager! Vi kan ikke finde det du søger. Prøv en ny søgning."
 msgid "Pages:"
 msgstr "Sider:"
 
-#: ../content-page.php:35 ../inc/clean-journal-core.php:670
-#: ../inc/clean-journal-core.php:689 ../inc/clean-journal-core.php:815
+#: ../content-page.php:35 ../inc/clean-journal-core.php:667
+#: ../inc/clean-journal-core.php:686 ../inc/clean-journal-core.php:812
 msgid "Edit"
 msgstr "Redigér"
 
@@ -226,98 +226,98 @@ msgstr "På"
 # I suggest consistency.
 # Either use Posts always, or indlæg.
 # Both would work.
-#: ../inc/clean-journal-core.php:638 ../inc/clean-journal-core.php:1532
+#: ../inc/clean-journal-core.php:635 ../inc/clean-journal-core.php:1529
 msgid "Post navigation"
 msgstr "Indlægs navigation"
 
-#: ../inc/clean-journal-core.php:647
+#: ../inc/clean-journal-core.php:644
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=“meta-nav”> ← </ span> Ældre indlæg"
 
-#: ../inc/clean-journal-core.php:648
+#: ../inc/clean-journal-core.php:645
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Nyere indlæg <span class=“meta-nav”> → </ span>"
 
-#: ../inc/clean-journal-core.php:670
+#: ../inc/clean-journal-core.php:667
 msgid "Pingback:"
 msgstr "Pingback:"
 
-#: ../inc/clean-journal-core.php:680
+#: ../inc/clean-journal-core.php:677
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr "%s <span class=\"says\">siger:</span>"
 
-#: ../inc/clean-journal-core.php:686
+#: ../inc/clean-journal-core.php:683
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%1$s kl. %2$s"
 
-#: ../inc/clean-journal-core.php:693
+#: ../inc/clean-journal-core.php:690
 msgid "Your comment is awaiting moderation."
 msgstr "Din kommentar afventer godkendelse"
 
-#: ../inc/clean-journal-core.php:796
+#: ../inc/clean-journal-core.php:793
 msgid "<span class=\"screen-reader-text\">Posted on</span>"
 msgstr "<span class=\"screen-reader-text\">Udgivet den</span>"
 
-#: ../inc/clean-journal-core.php:803
+#: ../inc/clean-journal-core.php:800
 msgctxt "Used before post author name."
 msgid "<span class=\"screen-reader-text\">Author</span>"
 msgstr "<span class=\"screen-reader-text\">Forfatter</span>"
 
-#: ../inc/clean-journal-core.php:811
+#: ../inc/clean-journal-core.php:808
 msgid "Leave a comment"
 msgstr "Skriv en kommentar"
 
-#: ../inc/clean-journal-core.php:811
+#: ../inc/clean-journal-core.php:808
 msgid "1 Comment"
 msgstr "En kommentar"
 
-#: ../inc/clean-journal-core.php:811
+#: ../inc/clean-journal-core.php:808
 msgid "% Comments"
 msgstr "% kommentarer"
 
-#: ../inc/clean-journal-core.php:832 ../inc/clean-journal-core.php:840
+#: ../inc/clean-journal-core.php:829 ../inc/clean-journal-core.php:837
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
 
-#: ../inc/clean-journal-core.php:835
+#: ../inc/clean-journal-core.php:832
 msgctxt "Used before category names."
 msgid "<span class=\"screen-reader-text\">Categories</span>"
 msgstr "<span class=\"screen-reader-text\">kategorier</span>"
 
-#: ../inc/clean-journal-core.php:843
+#: ../inc/clean-journal-core.php:840
 msgctxt "Used before tag names."
 msgid "<span class=\"screen-reader-text\">Tags</span>"
 msgstr "<span class=\"screen-reader-text\">Tags</span>"
 
-#: ../inc/clean-journal-core.php:1453
+#: ../inc/clean-journal-core.php:1450
 msgid "Scroll Up"
 msgstr "Scroll Op"
 
-#: ../inc/clean-journal-core.php:1471
+#: ../inc/clean-journal-core.php:1468
 msgid "Posted on"
 msgstr "Udgivet den"
 
-#: ../inc/clean-journal-core.php:1472
+#: ../inc/clean-journal-core.php:1469
 msgid "By"
 msgstr "Af"
 
-#: ../inc/clean-journal-core.php:1514
+#: ../inc/clean-journal-core.php:1511
 msgid "Next &rarr;"
 msgstr "Næste &rarr;"
 
-#: ../inc/clean-journal-core.php:1515
+#: ../inc/clean-journal-core.php:1512
 msgid "Next post:"
 msgstr "Næste indlæg:"
 
-#: ../inc/clean-journal-core.php:1517
+#: ../inc/clean-journal-core.php:1514
 msgid "&larr; Previous"
 msgstr "&larr; Forrige"
 
-#: ../inc/clean-journal-core.php:1518
+#: ../inc/clean-journal-core.php:1515
 msgid "Previous post:"
 msgstr "Forrige indlæg:"
 

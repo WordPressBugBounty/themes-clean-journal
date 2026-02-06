@@ -2,7 +2,7 @@
 Contributors: catchthemes
 Tags: one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-image-header, featured-images, footer-widgets, full-width-template, post-formats, sticky-post, theme-options,  threaded-comments, translation-ready, blog, news, portfolio
 Requires at least: 5.9
-Tested up to: 6.8
+Tested up to: 6.9
 Requires PHP: 5.6
 License: GNU General Public License v3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -147,6 +147,10 @@ For detail instructions, check out theme instructions page at https://catchtheme
 For more FAQs, visit https://catchthemes.com/frequently-asked-questions/
 
 == Changelog ==
+
+= 3.1 (Released: December 14, 2025) =
+* Bug Fixed: Deprecated Function WP_Dependencies-add_data() warning after WordPress update 6.9
+* Updated: WordPress 6.9 ready
 
 = 3.0 (Released: June 18, 2025) =
 * Added: Twitter X, TikTok, Bluesky, and Threads icons

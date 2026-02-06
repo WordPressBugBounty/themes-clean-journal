@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clean Journal\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2025-06-18 19:16+0545\n"
+"POT-Creation-Date: 2025-12-14 15:51+0545\n"
 "PO-Revision-Date: 2016-12-07 16:27-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Poedit 3.6\n"
+"X-Generator: Poedit 3.8\n"
 "X-Poedit-KeywordsList: "
 "__;_e;_x;esc_html_e;esc_html__;esc_attr_e;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -88,8 +88,8 @@ msgstr ""
 msgid "Pages:"
 msgstr ""
 
-#: ../content-page.php:35 ../inc/clean-journal-core.php:670
-#: ../inc/clean-journal-core.php:689 ../inc/clean-journal-core.php:815
+#: ../content-page.php:35 ../inc/clean-journal-core.php:667
+#: ../inc/clean-journal-core.php:686 ../inc/clean-journal-core.php:812
 msgid "Edit"
 msgstr ""
 
@@ -200,98 +200,98 @@ msgctxt "Montserrat font: on or off"
 msgid "on"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:638 ../inc/clean-journal-core.php:1532
+#: ../inc/clean-journal-core.php:635 ../inc/clean-journal-core.php:1529
 msgid "Post navigation"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:647
+#: ../inc/clean-journal-core.php:644
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:648
+#: ../inc/clean-journal-core.php:645
 msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:670
+#: ../inc/clean-journal-core.php:667
 msgid "Pingback:"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:680
+#: ../inc/clean-journal-core.php:677
 #, php-format
 msgid "%s <span class=\"says\">says:</span>"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:686
+#: ../inc/clean-journal-core.php:683
 #, php-format
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:693
+#: ../inc/clean-journal-core.php:690
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
-#: ../inc/clean-journal-core.php:796
+#: ../inc/clean-journal-core.php:793
 msgid "<span class=\"screen-reader-text\">Posted on</span>"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:803
+#: ../inc/clean-journal-core.php:800
 msgctxt "Used before post author name."
 msgid "<span class=\"screen-reader-text\">Author</span>"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:811
+#: ../inc/clean-journal-core.php:808
 msgid "Leave a comment"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:811
+#: ../inc/clean-journal-core.php:808
 msgid "1 Comment"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:811
+#: ../inc/clean-journal-core.php:808
 msgid "% Comments"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:832 ../inc/clean-journal-core.php:840
+#: ../inc/clean-journal-core.php:829 ../inc/clean-journal-core.php:837
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ""
 
-#: ../inc/clean-journal-core.php:835
+#: ../inc/clean-journal-core.php:832
 msgctxt "Used before category names."
 msgid "<span class=\"screen-reader-text\">Categories</span>"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:843
+#: ../inc/clean-journal-core.php:840
 msgctxt "Used before tag names."
 msgid "<span class=\"screen-reader-text\">Tags</span>"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1453
+#: ../inc/clean-journal-core.php:1450
 msgid "Scroll Up"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1471
+#: ../inc/clean-journal-core.php:1468
 msgid "Posted on"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1472
+#: ../inc/clean-journal-core.php:1469
 msgid "By"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1514
+#: ../inc/clean-journal-core.php:1511
 msgid "Next &rarr;"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1515
+#: ../inc/clean-journal-core.php:1512
 msgid "Next post:"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1517
+#: ../inc/clean-journal-core.php:1514
 msgid "&larr; Previous"
 msgstr ""
 
-#: ../inc/clean-journal-core.php:1518
+#: ../inc/clean-journal-core.php:1515
 msgid "Previous post:"
 msgstr ""
 
